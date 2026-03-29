@@ -1,0 +1,85 @@
+
+.TripDetails {
+    padding: 20px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .left-side {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .left-side h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .left-side p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+  }
+
+  .right-side {
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+  }
+
+  .bottom-section {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px !important;
+  }
+
+  .bottom-section .destinations,
+  .bottom-section .activities {
+    margin-bottom: 15px;
+  }
+
+  .addActivityBtn {
+    color: rgb(255, 255, 255);
+    background-color: rgba(38, 163, 217, 0.491);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .addActivityBtn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(29, 122, 162, 0.491);
+  }
+
+  .addDestinationBtn {
+    color: rgb(255, 255, 255);
+    background-color: rgba(38, 163, 217, 0.491);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .addDestinationBtn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(29, 122, 162, 0.491);
+  }

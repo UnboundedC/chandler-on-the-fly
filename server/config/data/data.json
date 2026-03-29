@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Paris Adventure",
+    "description": "Explore the city of lights with visits to the Eiffel Tower, the Louvre, and charming sidewalk cafés.",
+    "img_url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "num_days": 7,
+    "start_date": "2024-06-01",
+    "end_date": "2024-06-07",
+    "total_cost": 2500
+  },
+  {
+    "title": "Tokyo Explorer",
+    "description": "Discover the bustling streets of Tokyo, from ancient temples to cutting-edge technology and world-class cuisine.",
+    "img_url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
+    "num_days": 10,
+    "start_date": "2024-07-15",
+    "end_date": "2024-07-25",
+    "total_cost": 3800
+  },
+  {
+    "title": "Bali Retreat",
+    "description": "Relax and rejuvenate in the tropical paradise of Bali with yoga, pristine beaches, and ancient temples.",
+    "img_url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4",
+    "num_days": 14,
+    "start_date": "2024-08-01",
+    "end_date": "2024-08-14",
+    "total_cost": 3200
+  },
+  {
+    "title": "New York City Weekend",
+    "description": "Experience the energy of NYC with Broadway shows, world-famous food, and iconic landmarks.",
+    "img_url": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9",
+    "num_days": 4,
+    "start_date": "2024-09-05",
+    "end_date": "2024-09-09",
+    "total_cost": 1800
+  },
+  {
+    "title": "Machu Picchu Trek",
+    "description": "Hike the legendary Inca Trail to the ancient citadel of Machu Picchu in the heart of the Andes.",
+    "img_url": "https://images.unsplash.com/photo-1526392060635-9d6019884377",
+    "num_days": 12,
+    "start_date": "2024-10-10",
+    "end_date": "2024-10-22",
+    "total_cost": 4200
+  }
+]
