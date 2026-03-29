@@ -1,3 +1,14 @@
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .Card {
     backdrop-filter: blur(2px);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -15,7 +26,14 @@
     background-blend-mode: multiply;
     color: white;
     backdrop-filter: blur(10px);
+    animation: fadeSlideIn 0.5s ease forwards;
 }
+
+.Card:nth-child(2) { animation-delay: 0.1s; opacity: 0; }
+.Card:nth-child(3) { animation-delay: 0.2s; opacity: 0; }
+.Card:nth-child(4) { animation-delay: 0.3s; opacity: 0; }
+.Card:nth-child(5) { animation-delay: 0.4s; opacity: 0; }
+.Card:nth-child(6) { animation-delay: 0.5s; opacity: 0; }
 
 .card-info {
     padding-top: 0px;
