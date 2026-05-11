@@ -6,7 +6,7 @@
   - [x] Include a list of pages in your app
 - [x] In `planning/entity_relationship_diagram.md`: add the entity relationship diagram you developed for your database.
   - [x] Entity relationship diagram includes all tables in the database
-- [ ] Prepare your three-minute pitch presentation
+- [ x] Prepare your three-minute pitch presentation
 
 ## Wireframes
 
